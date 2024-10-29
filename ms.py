@@ -9,4 +9,4 @@ def ms(allowable: float, actual: float) -> float:
     :param actual: actual (limit) load
     :return: margin of safety
     """
-    return allowable / (1.5 * actual)
+    return allowable / (1.5 * actual) - 1
