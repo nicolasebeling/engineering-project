@@ -2,11 +2,6 @@
 Implements the calculation of the reserve factor against inter-rivet buckling in metallic structures according to HSB 45131-01, issue C, 2004.
 
 The x-axis is defined in the direction of the fastener row.
-
-Abbreviations:
-sigma_x = stress in x-direction
-cr = critical
-irb = inter-rivet buckling
 """
 
 import math
